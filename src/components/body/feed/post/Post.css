@@ -1,0 +1,124 @@
+.post {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.post__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.avtar__info {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
+.post__info {
+  margin-left: 10px;
+}
+.post__info > p {
+  font-size: 13px;
+  color: gray;
+}
+
+.post__info > h2 {
+  font-size: 15px;
+}
+
+.follow {
+  display: flex;
+  cursor: pointer;
+  /* padding: 1rem; */
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+}
+.follow__block {
+  display: flex;
+  align-items: center;
+  padding-right: 0.5rem;
+  margin-right: 0.2rem;
+  /* margin-bottom: 1rem; */
+  color: #0177b7;
+
+  border-radius: 0.2rem;
+}
+
+.follow__block:hover {
+  background-color: rgb(215, 226, 247);
+}
+/* .follow > h3 {
+} */
+.add__avatar {
+  /* color: #0a66c2; */
+  padding-right: 0.2rem;
+  font-size: large;
+  font-weight: 800;
+}
+
+.more__avatar {
+  color: gray;
+  margin-top: 0.4rem;
+}
+.more__avatar:hover {
+  background-color: lightgray;
+
+  border-radius: 50%;
+}
+.post__body {
+  overflow-wrap: anywhere;
+}
+
+.post__image {
+  /* padding-top: 1rem; */
+  /* background-color: lightgray; */
+  /* position: relative; */
+}
+.post__desc {
+  background-color: #eef3f8;
+  padding: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.source_info {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgb(61, 59, 59);
+  padding-top: 0.5rem;
+}
+.post__image > img {
+  object-fit: cover;
+  width: 100%;
+  height: 70%;
+  padding-top: 0.5rem;
+}
+
+.post__buttons {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.add__comment {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+}
+.add__comment > .one__border > input {
+  width: 80%;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+}
+.one__border {
+  display: flex;
+  justify-content: space-around;
+  margin: 0.5rem;
+  height: 2.5rem;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 1rem;
+  width: 100%;
+}
